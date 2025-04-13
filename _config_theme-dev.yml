@@ -8,7 +8,7 @@ description: >
   in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 
-theme: minima
+theme: jekyll-sumplecss
 
 plugins:
   - jekyll-feed
@@ -18,7 +18,7 @@ sass:
   quiet_deps: true
   silence_deprecations: [import]
 
-minima:
+jekyll-sumplecss:
   # Minima skin selection. Available skins are:
   #   Available skins:
   #     * classic            Default, light color scheme.
