@@ -1,0 +1,25 @@
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: text-top;
+
+  @media (prefers-color-scheme: dark) {
+    -webkit-filter: invert(100%);
+  }
+}
+
+.post-meta {
+  font-size: 0.75rem;
+  color: #828282;
+}
+
+article.post {
+  border: none;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
